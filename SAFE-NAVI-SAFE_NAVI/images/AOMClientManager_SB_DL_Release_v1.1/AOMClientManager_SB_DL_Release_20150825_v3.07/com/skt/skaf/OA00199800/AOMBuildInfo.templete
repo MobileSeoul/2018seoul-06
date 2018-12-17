@@ -1,0 +1,18 @@
+package com.skt.skaf.OA00199800;
+
+public class AOMBuildInfo {
+	public static final int	SANDBOX_DEBUG	= 1;	// Sandbox / DEBUG
+	public static final int	SANDBOX_RELEASE = 2;	// Sandbox / RELEASE
+	public static final int CS_DEBUG		= 3;	// CS / DEBUG
+	public static final int	CS_RELEASE		= 4;	// CS / RELEASE
+	public static final int	TB_DEBUG		= 5;	// TB / DEBUG
+	public static final int	TB_RELEASE		= 6;	// TB / RELEASE
+	
+	// ===================================================================
+	// 배포정보 설정
+	// ===================================================================
+	public static final int 		RELEASE_SETTING = ##MODE##;
+	public static final String 		BUILD_DATE = "$WCNOW$";
+	public static final int			REVISION = $WCREV$;
+	// ===================================================================
+}

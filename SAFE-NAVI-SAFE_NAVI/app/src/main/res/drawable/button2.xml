@@ -1,0 +1,14 @@
+<!-- button.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<solid android:color="#c312d7" />-->
+    <!--<stroke android:color="#c312d7" android:width="2dp" />-->
+    <gradient
+        android:startColor="#f4c96b"
+        android:endColor="#f4c96b"
+        android:angle="270"/>
+    <padding android:left="7dp" android:top="0dp"
+        android:right="7dp" android:bottom="0dp" />
+    <!--<corners android:radius="10dp" />-->
+</shape>
+
+
